@@ -17,7 +17,7 @@ export const GiteaTest = describe(GiteaStrategy, () => {
         clientID: "CLIENT_ID",
         clientSecret: "CLIENT_SECRET",
         callbackURL: "https://example.app/callback",
-        domain: "example.com",
+        domain: "https://example.com",
       },
       verify
     );
